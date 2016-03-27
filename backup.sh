@@ -66,9 +66,7 @@ cp ~/.zshrc .
 
 # Sublime Text
 mkdir -p .config/sublime-text-3/Packages
-cp ~/.config/sublime-text-3/Packages/* .config/sublime-text-3/Packages/
+cp -r ~/.config/sublime-text-3/Packages/* .config/sublime-text-3/Packages/
 
 # Config files
-
 cp ~/.zshrc .
-
