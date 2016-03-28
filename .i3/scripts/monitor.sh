@@ -1,8 +1,8 @@
 #!/bin/bash
 
-IN="LVDS1"
-VGA="VGA1"
-HDMI="HDMI1"
+IN="LVDS-1"
+VGA="VGA-1"
+HDMI="HDMI-1"
 
 if (xrandr | grep "$VGA disconnected"); then
 	CMD="xrandr --output $IN --auto --output $VGA --off"

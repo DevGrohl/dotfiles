@@ -199,7 +199,8 @@
         mode dock
         position top 
         workspace_buttons yes
-        status_command i3blocks -c ~/.i3/.i3blocks.conf
+        status_command i3blocks
+        #status_command i3blocks -c ~/.i3/.i3blocks.conf
         #status_command /home/migue/.i3/status.sh
         #i3bar_command ~/.i3/lemonbar/i3_lemonbar.sh
         colors {

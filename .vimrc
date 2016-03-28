@@ -4,6 +4,7 @@
 " Plugins needed:
 " ag.vim
 
+set encoding=utf-8
 
 " BUNDLES
 set nocompatible
@@ -13,7 +14,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'bling/vim-airline'
+"Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'git://github.com/scrooloose/nerdtree.git'
 Plugin 'git://github.com/scrooloose/nerdcommenter.git'
 Plugin 'git://github.com/docunext/closetag.vim.git'
@@ -21,7 +24,7 @@ Plugin 'git://github.com/Raimondi/delimitMate.git'
 Plugin 'git://github.com/tpope/vim-fugitive.git'
 Plugin 'git://github.com/mbbill/undotree.git'
 Plugin 'git://github.com/scrooloose/syntastic.git'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
@@ -29,7 +32,7 @@ filetype plugin indent on
 runtime! archlinux.vim
 
 " Airline configurations
-set laststatus=2
+let laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
