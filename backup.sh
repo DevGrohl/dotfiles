@@ -21,6 +21,7 @@ cp -r ~/.config/fontconfig/ .config/
 #.i3/scripts/
 mkdir -p .i3/lemonbar/
 mkdir -p .i3/scripts/
+cp ~/.i3/i3blocks.conf .i3blocks.conf
 cp ~/.i3/config .i3
 cp ~/.i3/i3status.conf .i3/i3status.conf
 cp ~/.i3/status.sh .i3/status.sh
