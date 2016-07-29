@@ -1,9 +1,6 @@
 #Pacman
 su
-pacman -S xf86-video-vesa mesa xorg-server xorg-utils xorg-xinit xorg-xrandr rofi git sudo fakeroot make binutils gcc 
-perl-anyevent-i3 unzip terminus-font xorg-xset ranger ncmpcpp mpc mpd rsync cmake vlc ntfs-3g xorg-xlsfonts netbeans htop scrot 
-lm_sensors xdotools ruby awk rfkill networkmanager network-manager-applet feh weechat xf86-input-synaptics file-roller rhythmbox 
-vim wget zsh alsa-utils
+pacman -S xf86-video-vesa mesa xorg-server xorg-utils xorg-xinit xorg-xrandr rofi git sudo fakeroot make binutils gcc perl-anyevent-i3 unzip terminus-font xorg-xset ranger ncmpcpp mpc mpd rsync cmake vlc ntfs-3g xorg-xlsfonts netbeans htop scrot lm_sensors xdotools ruby awk rfkill networkmanager network-manager-applet feh weechat xf86-input-synaptics file-roller rhythmbox vim wget zsh alsa-utils
 
 pacman -S php mariadb php-apache php-mcrypt phpmyadmin php-intl php-imap php-sqlite
 
