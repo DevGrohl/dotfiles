@@ -37,7 +37,7 @@ fi
 sh .i3/scripts/monitor.sh
 
 # Set wallpaper
-feh --bg-fill /home/migue/Pictures/Wallpapers/wallhaven-104103.jpg
+feh --bg-fill /home/migue/Pictures/Wallpapers/wallhaven-49882.png
 
 xset +fp ~/.local/share/fonts/misc
 xset +fp ~/.local/share/fonts/ohsnap
