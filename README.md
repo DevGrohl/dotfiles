@@ -1,2 +1,2 @@
 # dotfiles
-Configuratins and dependencies for dotfiles
+Configurations and dependencies for dotfiles
