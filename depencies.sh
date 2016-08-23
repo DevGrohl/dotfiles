@@ -13,7 +13,8 @@ git clone https://github.com/powerline/fonts
 #i3
 git clone https://github.com/Airblader/i3
 git clone https://github.com/vivien/i3blocks
-    
+git clone https://github.com/meskarune/i3lock-fancy
+
  mysql_install_db --user=mysql --basedir=/usr/ --ldata=/var/lib/mysql/
  mysql_secure_installation
 
