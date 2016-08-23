@@ -1,0 +1,4 @@
+{
+    // This file ensures that C++ gets priority for .hpp files
+    "extensions": ["hpp"]
+}

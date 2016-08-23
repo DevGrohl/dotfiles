@@ -22,7 +22,7 @@ cp -r ~/.config/fontconfig/ .config/
 mkdir -p .i3/lemonbar/
 mkdir -p .i3/scripts/
 cp ~/.i3/i3blocks.conf .i3blocks.conf
-cp ~/.i3/config .i3
+cp ~/.i3/config .i3/config
 cp ~/.i3/i3status.conf .i3/i3status.conf
 cp ~/.i3/status.sh .i3/status.sh
 cp -r ~/.i3/lemonbar/ .i3/
@@ -48,6 +48,9 @@ cp ~/.vimrc .
 #cp -r ~/.vim/bundle/ .vim/
 cp -r ~/.vim/colors/ .vim/
 
+# Termite
+cp -r ~/.config/termite .config/termite
+
 # weechat
 #.weechat/*.con
 mkdir -p .weechat/
@@ -71,3 +74,4 @@ cp -r ~/.config/sublime-text-3/Packages/* .config/sublime-text-3/Packages/
 
 # Config files
 cp ~/.zshrc .
+cp ~/.Xresources .

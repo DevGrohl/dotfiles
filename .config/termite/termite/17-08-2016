@@ -1,0 +1,44 @@
+
+[options]
+
+font = Liberation Mono for Powerline 10
+[colors]
+
+# special
+foreground      = #e8e9ca
+foreground_bold = #e8e9ca
+cursor          = #e8e9ca
+background      = #222222
+
+# black
+color0  = #222222
+color8  = #4c4c4c
+
+# red
+color1  = #8b3e2f
+color9  = #d75f00
+
+# green
+color2  = #526f33
+color10 = #cee318
+
+# yellow
+color3  = #665847
+color11 = #eee685
+
+# blue
+color4  = #9ae000
+color12 = #9ac0cd
+
+# magenta
+color5  = #7a378b
+color13 = #9f79ee
+
+# cyan
+color6  = #528b8b
+color14 = #79cdcd
+
+# white
+color7  = #999999
+color15 = #e8e9ca
+

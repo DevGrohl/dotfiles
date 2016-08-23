@@ -32,3 +32,6 @@ tar -xzvf package-query.tar.gz && cd package-query/ && makepkg -s
 tar -xzvf yaourt.tar.gz && cd yaourt/ && makepkg -s
 
 yaourt -S sublime-text-dev atom-editor playerctl spotify
+
+
+mkdir .config/mpd/playlists/

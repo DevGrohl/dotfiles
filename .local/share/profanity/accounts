@@ -40,3 +40,17 @@ priority.chat=0
 priority.away=0
 priority.xa=0
 priority.dnd=0
+
+[me_facebook]
+enabled=true
+jid=devgrohl@facebook.com
+resource=profanity
+muc.service=conference.facebook.com
+muc.nick=Migue
+presence.last=online
+presence.login=online
+priority.online=0
+priority.chat=0
+priority.away=0
+priority.xa=0
+priority.dnd=0
