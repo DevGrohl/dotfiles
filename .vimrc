@@ -1,20 +1,15 @@
-" This line should not be removed as it ensures that various options are
-" properly set to work with the Vim-related packages.
-
-" Plugins needed:
-" ag.vim
-
-set encoding=utf-8
-
+" Bundles & Plugis
 " BUNDLES
 set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
 
-"Plugin 'bling/vim-airline'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'xero/sourcerer.vim'
+Plugin 'dikiaap/minimalist'
+Plugin 'git://github.com/jeetsukumaran/vim-nefertiti'  
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'git://github.com/scrooloose/nerdtree.git'
@@ -24,7 +19,44 @@ Plugin 'git://github.com/Raimondi/delimitMate.git'
 Plugin 'git://github.com/tpope/vim-fugitive.git'
 Plugin 'git://github.com/mbbill/undotree.git'
 Plugin 'git://github.com/scrooloose/syntastic.git'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'yggdroot/indentline'
+Plugin 'wincent/command-t'
+
+" Colors
+colorscheme minimalist
+
+" Tabs & Spaces
+" enable syntax processing
+syntax enable
+" number of visual spaces per TAB
+set tabstop=4
+" number of spaces in tab when editing
+set softtabstop=4
+" tabs are spaces
+set expandtab
+
+" UI config
+" show line numbers
+set number
+" show command in bottom bar
+set showcmd
+" highlight current line
+set cursorline
+" visual autocomplete for command menu
+set wildmenu
+" redraw only when needed
+set lazyredraw
+" highlight matching []{}()
+set showmatch
+
+" Searching
+" search while type
+set incsearch
+" highlight search
+set hlsearch
+" turn off highlight
+nnoremap <leader><space> :nohlsearch<CR>
+
 
 call vundle#end()
 filetype plugin indent on
@@ -33,18 +65,9 @@ runtime! archlinux.vim
 
 " Airline configurations
 let laststatus=2
+let g:airline_theme='minimalist'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-
-" enable syntax processing
-syntax enable
-
-" number of visual spaces per TAB
-set tabstop=4
-
-" number of spaces in tab when editing
-
-set softtabstop=4
 
 " tabs are spaces
 set expandtab
@@ -63,7 +86,7 @@ filetype indent on
 
 " Autocomplete
 set wildmenu
-
+ 
 " redraw only when needed
 set lazyredraw
 
@@ -142,3 +165,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+let g:indentLine_setColors = 0
+let g:indentLine_color_term = 239
+:set relativenumber
