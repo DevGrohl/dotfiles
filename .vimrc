@@ -22,7 +22,8 @@ Plugin 'git://github.com/scrooloose/syntastic.git'
 Plugin 'yggdroot/indentline'
 Plugin 'wincent/command-t'
 
-" Colors
+set t_Co=256
+syntax on
 colorscheme minimalist
 
 " Tabs & Spaces
@@ -166,6 +167,14 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:airline_theme='minimalist'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
 let g:indentLine_setColors = 0
 let g:indentLine_color_term = 239
 :set relativenumber
+
+" Transparency
+hi NonText ctermbg=none 
+hi Normal guibg=NONE ctermbg=NONE

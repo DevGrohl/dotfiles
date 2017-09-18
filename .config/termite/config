@@ -1,44 +1,51 @@
-
 [options]
-#font = Liberation Mono for Powerline 10
 font = monofur for Powerline 12 
 
 [colors]
 
 # special
-foreground      = #dddddd
-foreground_bold = #dddddd
-cursor          = #dddddd
-background      = #222222
+foreground      = #ffffff
+foreground_bold = #ffffff
+cursor          = #ffffff
+background      = rgba(50,50,50,0.8)
 
 # black
-color0  = #191919
-color8  = #252525
+color0  = #222222
+color8  = #333333
 
 # red
-color1  = #803232
-color9  = #982b2b
+color1  = #ca4a4b
+color9  = #ca4a4b
 
 # green
-color2  = #5b762f
-color10 = #89b83f
+color2  = #aa2a2a
+color10 = #aa2a2a
 
 # yellow
-color3  = #aa9943
-color11 = #efef60
+color3  = #830c0c
+color11 = #830c0c
 
 # blue
-color4  = #324c80
-color12 = #2b4f98
+color4  = #ca4a4b
+color12 = #ca4a4b
 
 # magenta
-color5  = #706c9a
-color13 = #826ab1
+color5  = #aa2a2a
+color13 = #aa2a2a
 
 # cyan
-color6  = #92b19e
-color14 = #a1cdcd
+color6  = #830c0c
+color14 = #830c0c
 
 # white
 color7  = #ffffff
-color15 = #dddddd
+color15 = #ffffff
+
+# 16 color space
+# Extra colors
+color16 = #FE8625
+color17 = #A87322
+color18 = #32302F
+color19 = #504945
+color20 = #928374
+color21 = #D5C4A1

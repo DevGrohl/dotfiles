@@ -6,42 +6,9 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# merge in defaults and keymaps
+feh --bg-fill Pictures/Wallpapers/wallhaven-521782.png
 
-if [ -f $sysresources ]; then
-    xrdb -merge $sysresources
-fi
-
-if [ -f $sysmodmap ]; then
-    xmodmap $sysmodmap
-fi
-
-if [ -f "$userresources" ]; then
-    xrdb -merge "$userresources"
-fi
-
-if [ -f "$usermodmap" ]; then
-    xmodmap "$usermodmap"
-fi
-
-# start some nice programs
-
-if [ -d /etc/X11/xinit/xinitrc.d ] ; then
- for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-  [ -x "$f" ] && . "$f"
- done
- unset f
-fi
-
-# Set screens
-sh .i3/scripts/monitor.sh
-
-# Set wallpaper
-feh --bg-fill /home/migue/Pictures/Wallpapers/wallhaven-49882.png
-
-xset +fp ~/.local/share/fonts/misc
-xset +fp ~/.local/share/fonts/ohsnap
-xset +fp ~/.local/share/fonts/terminesspowerline
+numlockx &
 
 exec i3
 #exec gnome-session
