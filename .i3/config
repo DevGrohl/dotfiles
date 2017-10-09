@@ -20,11 +20,11 @@
 
 # Colors
     #class                      border      background  text
-    client.focused              #D04A2E     #93758E     #9e8a8e
-    client.focused_inactive     #D04A2E     #93758E     #999999
-    client.unfocused            #D04A2E     #93758E     #999999
-    client.urgent               #D04A2E     #93758E     #2e3436
-    client.background           #1d1d1d
+    client.focused              #222222     #111111     #9e8a8e
+    client.focused_inactive     #222222     #222222     #aa2a2a
+    client.unfocused            #222222     #333333     #ffffff
+    client.urgent               #222222     #93758E     #2e3436
+    client.background           #222222
 
 # Gaps for windows
     gaps inner 6
@@ -37,7 +37,7 @@
 
 # start a terminal
     bindsym $mod+Return exec termite
-
+    bindsym $mod+Shift+Return exec terminator
 # kill focused window
     bindsym Ctrl+q kill
 
@@ -250,7 +250,7 @@
     assign [class="jetbrains-phpstorm"] $tag2
     assign [class="jetbrains-datagrip"] $tag2
     assign [class="Atom"] $tag2
-    assign [class="Subl3"] $tag2
+    assign [class="Sublime_text"] $tag2
     assign [class="QtCreator"] $tag2
     assign [class="Android Studio"] $tag2
     assign [class="Gummi"] → $tag2
