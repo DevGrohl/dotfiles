@@ -43,3 +43,6 @@ cmap w!! w !sudo tee %
 
 vmap <C-c> "+y
 nmap <C-b> "+p
+
+let g:python3_host_prog = '/usr/bin/python3'
+let g:python_host_prog = '/usr/bin/python2.7'
