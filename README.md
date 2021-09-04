@@ -29,6 +29,15 @@ cp -r .config $HOME
 pip3 install pynvim
 pip3 install --upgrade msgpack
 
+## Fonts installation
+
+### Download the repo with the patched fonts
+git clone https://github.com/powerline/fonts
+
+### From Powershell change the Execution Policy & install
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\install.ps1
+
 ## oh-my-zsh & powerlevel10k
 
 ### Installation
