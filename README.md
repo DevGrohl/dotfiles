@@ -1,4 +1,4 @@
-#Installation and configuration for WSL
+# Installation and configuration for WSL
 
 ## Packages
 
