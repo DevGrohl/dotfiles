@@ -2,7 +2,9 @@
 
 ## Packages
 
-`sudo apt-get install git wget curl neovim zsh python3-pip`
+```
+sudo apt-get install git wget curl neovim zsh python3-pip
+```
 
 ## Neovim
 
@@ -37,7 +39,10 @@ pip3 install --upgrade msgpack
 ## Fonts installation
 
 ### Download the repo with the patched fonts
+
+```
 git clone https://github.com/powerline/fonts
+```
 
 ### From Powershell change the Execution Policy & install
 
@@ -59,4 +64,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 Copy `.zshrc` file to $HOME
 
-`cp .zshrc $HOME`
+```
+cp .zshrc $HOME
+```
