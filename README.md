@@ -16,25 +16,22 @@ sudo apt-get install python-neovim
 sudo apt-get install python3-neovim
 ```
 
-### Installation from Source
+### Installation from Source to get version 0.8.0+
 
 ```
-git clone https://github.com/neovim/neovim
-cd neovim
-git checkout stable
-make -j4
-sudo make install
+Download nvim-linux64.deb from: https://github.com/neovim/neovim/releases
+sudo apt install ./nvim-linux64.deb
 ```
 
 ### Configuration
 
-Copy .config folder to $HOME
+Install LazyVim
 
 ```
-cp -r .config $HOME
-pip3 install pynvim
-pip3 install --upgrade msgpack
+git clone https://github.com/LazyVim/starter ~/.config/nvim/
 ```
+
+Copy .config folder to $HOME
 
 ## Fonts installation
 
