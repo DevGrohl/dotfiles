@@ -1,0 +1,132 @@
+[[colors.indexed_colors]]
+color = "#2F88FF"
+index = 20
+
+[[colors.indexed_colors]]
+color = "#2f88ff"
+index = 21
+
+[[colors.indexed_colors]]
+color = "#3684FA"
+index = 22
+
+[[colors.indexed_colors]]
+color = "#3C81F7"
+index = 23
+
+[[colors.indexed_colors]]
+color = "#437EF3"
+index = 24
+
+[[colors.indexed_colors]]
+color = "#497AEF"
+index = 25
+
+[[colors.indexed_colors]]
+color = "#4F77EB"
+index = 26
+
+[[colors.indexed_colors]]
+color = "#5573E7"
+index = 27
+
+[[colors.indexed_colors]]
+color = "#5B70E4"
+index = 28
+
+[[colors.indexed_colors]]
+color = "#616CE0"
+index = 29
+
+[[colors.indexed_colors]]
+color = "#6768DC"
+index = 30
+
+[[colors.indexed_colors]]
+color = "#6D64D8"
+index = 31
+
+[[colors.indexed_colors]]
+color = "#7261D5"
+index = 32
+
+[[colors.indexed_colors]]
+color = "#775ED2"
+index = 33
+
+[[colors.indexed_colors]]
+color = "#7C5BCF"
+index = 34
+
+[[colors.indexed_colors]]
+color = "#8257CB"
+index = 35
+
+[[colors.indexed_colors]]
+color = "#8853c7"
+index = 36
+
+[colors.bright]
+black = "#302e31"
+blue = "#2f88ff"
+cyan = "#6dabd6"
+green = "#8853c7"
+magenta = "#c8cc86"
+red = "#a55377"
+white = "#dcefff"
+yellow = "#d9c793"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.footer_bar]
+background = "#302e31"
+foreground = "#dcefff"
+
+[colors.hints.end]
+background = "#302e31"
+foreground = "#d9c793"
+
+[colors.hints.start]
+background = "#d9c793"
+foreground = "#302e31"
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.normal]
+black = "#211f21"
+blue = "#3f6cad"
+cyan = "#416680"
+green = "#553976"
+magenta = "#798347"
+red = "#7b3e59"
+white = "#adc4e3"
+yellow = "#ae9f76"
+
+[colors.primary]
+background = "#121212"
+bright_foreground = "#ffffff"
+foreground = "#c8c8c8"
+
+[colors.search.focused_match]
+background = "#d9c793"
+foreground = "#191919"
+
+[colors.search.matches]
+background = "#c8cc86"
+foreground = "#191919"
+
+[colors.selection]
+background = "#302e31"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[window.dimensions]
+columns = 220
+lines = 50
