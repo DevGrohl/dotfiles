@@ -1,0 +1,44 @@
+import = ["~/.config/alacritty/themes/themes/eldrich.toml"]
+
+[keyboard]
+bindings = [
+  { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
+]
+
+[colors]
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors = true
+
+[colors.cursor]
+cursor = "#FFFFFF"
+text = "#000000"
+
+[font]
+size = 12
+
+[font.normal]
+# fc-list | grep -i "Meslo"
+family = "JetBrains Mono Nerd Font" # >>>>>>>>>>>>>>>>>>> Top personal pick
+style = "Regular"
+
+[scrolling]
+# Maximum number of lines in the scrollback buffer.
+# Specifying '0' will disable scrolling.
+history = 10000
+# Scrolling distance multiplier.
+multiplier = 3
+
+# Shell
+# Default:
+#   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
+#   - (Windows) powershell
+#shell:
+#  program: /bin/bash
+#  args:
+#    - --login
+[shell]
+program = "/bin/zsh"
+
+[window.dimensions]
+columns = 180
+lines = 50
