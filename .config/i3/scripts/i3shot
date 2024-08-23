@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+case "$1" in
+  full)
+    maim ~/Pictures/Screenshot/Full/Fshot$(date +%F-%T).png
+    notify-send -i ~/.config/i3/icons/shot.png "\n Screenshot taken!"
+    ;;
+  window)
+    maim -s -l -c 0.3,0.4,0.6,0.6 ~/Pictures/Screenshot/Window/Wshot$(date +%F-%T).png
+    notify-send -i ~/.config/i3/icons/shot.png "\n Windowshot taken!"
+    ;;
+  snip)
+     killall compton
+     maim -t 0 -s -c 1,0,0,0 ~/Pictures/Screenshot/Snips/Sshot$(date +%F-%T).png
+     compton -b
+     sleep 0.6
+     notify-send -i ~/.config/i3/icons/shot.png "\n Snipshot taken!"
+    ;;
+  *)
+    echo "Usage: $0 [full|window|snip]"
+    exit 2
+esac
+
+exit 0

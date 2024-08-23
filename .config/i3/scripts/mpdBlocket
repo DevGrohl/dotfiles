@@ -1,0 +1,12 @@
+#!/bin/bash
+
+filter() {
+    tr '\n' ' ' | grep -Po '.*(?= \[playing\])|paused' | tr -d '\n' | cut -c 1- 
+}
+
+case $BLOCK_BUTTON in
+    3) mpc toggle | filter ;;  # right click, pause/unpause
+    4) mpc prev   | filter ;;  # scroll up, previous
+    5) mpc next   | filter ;;  # scroll down, next
+    *) mpc status | filter ;;
+esac
